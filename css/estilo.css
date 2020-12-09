@@ -1,0 +1,58 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.gradiente{
+	background-image: linear-gradient(to right,	#FFFAFA,#E0FFFF);
+}
+
+#sobre{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.linha{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+.centro{
+	text-align: center;
+}
+.ano{
+	background-image: linear-gradient(to right, #FFE4C4, #FFE4C4);
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+.tabela{
+	padding-top: 2%;
+	text-align: center;
+}
+.letra{
+	font-size: 0.5em;
+}
+table, th, td{
+	border: 5px groove #FFE4C4;
+	text-align: center;
+	width: 100%;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td{
+	padding: 15px;
+	border-radius: 30%;
+}
+td:hover{
+	background-color: #FFE4C4;
+}
+tr:nth-child(even){
+	background-color: #FFE4C4; 
+ }
